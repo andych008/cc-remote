@@ -9,6 +9,6 @@ cc-remote来源于[CC](https://github.com/luckybilly/CC)，实现了远程组件
 2. 被动监听其它组件的安装、卸载等。
 最终cc-remote维护一个map，key为包名，value为该包名下的组件名列表。
 
-
 - 我们约定组件app的特征就是包含一个Activity，其`<intent-filter>`下`action`为`"action.com.billy.cc.connection"`
 
+![](cc_remote.png)
